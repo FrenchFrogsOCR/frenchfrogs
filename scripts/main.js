@@ -877,7 +877,7 @@ Frogger.ImageSprite.prototype = {
 
         // Write the text center aligned within the <canvas> and at the 9th row position
         // from the top of the game board
-        Frogger.drawingSurface.fillText("GAME OVER", Frogger.drawingSurfaceWidth / 2, _gameBoard.rows[9]);
+        Frogger.drawingSurface.fillText("PERDU ! FAIS 10 BURPEES !", Frogger.drawingSurfaceWidth / 2, _gameBoard.rows[9]);
     }
 
     // Define a function to render the text "YOU WIN!" to the <canvas> which will be called
@@ -892,7 +892,7 @@ Frogger.ImageSprite.prototype = {
 
         // Write the text center aligned within the <canvas> and at the 9th row position
         // from the top of the game board
-        Frogger.drawingSurface.fillText("YOU WIN!", Frogger.drawingSurfaceWidth / 2, _gameBoard.rows[9]);
+        Frogger.drawingSurface.fillText("BRAVO ! FAIS 1 BURPEES !", Frogger.drawingSurfaceWidth / 2, _gameBoard.rows[9]);
     }
 
     // Define a function to render the "TIME" label in the bottom-right corner of the
@@ -907,7 +907,7 @@ Frogger.ImageSprite.prototype = {
 
         // Write the text right aligned within the <canvas> and in the bottom right corner
         // of the game board
-        Frogger.drawingSurface.fillText("TIME", Frogger.drawingSurfaceWidth, Frogger.drawingSurfaceHeight);
+        Frogger.drawingSurface.fillText("TEMPS", Frogger.drawingSurfaceWidth, Frogger.drawingSurfaceHeight);
     }
 
     // Define a function to render the text-based visuals to the game board as appropriate
